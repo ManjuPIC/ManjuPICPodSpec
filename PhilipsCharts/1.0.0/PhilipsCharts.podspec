@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   # s.homepage     = 'http://tfsemea1.ta.philips.com:8080/tfs/TPC_Region24/CDP2/_git/uid-ios'
   # s.documentation_url = 'http://sesvm-webserver.htce.nl.philips.com/PhilipsUIKit/ios/4.0.0/Documentation/'
   # s.social_media_url   = "https://philips.socialcast.com/groups/5569-philipsuikit"
-  s.source       = { :git => "https://github.com/ManjuPIC/PhilipsCharts.git", :commit => '3426d11b75963b6bedb4b1dd157427ccbe201343'}
+  s.source       = { :git => "https://github.com/ManjuPIC/PhilipsCharts.git", :commit => '1ebc0b08f61e516f7cc58a46f85972087ef6d91c'}
   s.source_files  = ["MyGraph/*.{h,swift}"]
   # s.resources = ["Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.ttf", "Source/PhilipsUIKitDLS/Images.xcassets", "Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.png"]
   s.requires_arc = true
-  # s.dependency "Charts", '~> 3.0.5'
+  s.dependency "Charts", '~> 3.0.5'
   # s.dependency "PhilipsIconFontDLS", DependencyCDP2Platform
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
