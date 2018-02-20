@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.documentation_url = 'http://sesvm-webserver.htce.nl.philips.com/PhilipsUIKit/ios/4.0.0/Documentation/'
   # s.social_media_url   = "https://philips.socialcast.com/groups/5569-philipsuikit"
   s.source       = { :git => "https://github.com/ManjuPIC/PhilipsCharts.git", :commit => '3426d11b75963b6bedb4b1dd157427ccbe201343'}
-  s.source_files  = ["Philips_Chart/Philips_Chart/**/*.{h,swift}"]
+  s.source_files  = ["PhilipsCharts/MyGraph/*.{h,swift}"]
   # s.resources = ["Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.ttf", "Source/PhilipsUIKitDLS/Images.xcassets", "Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.png"]
   s.requires_arc = true
   # s.dependency "Charts", '~> 3.0.5'
