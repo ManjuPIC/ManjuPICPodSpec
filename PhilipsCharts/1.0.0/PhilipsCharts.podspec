@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.homepage     = 'http://tfsemea1.ta.philips.com:8080/tfs/TPC_Region24/CDP2/_git/uid-ios'
   # s.documentation_url = 'http://sesvm-webserver.htce.nl.philips.com/PhilipsUIKit/ios/4.0.0/Documentation/'
   # s.social_media_url   = "https://philips.socialcast.com/groups/5569-philipsuikit"
-  s.source       = { :git => "https://github.com/ManjuPIC/PhilipsCharts.git", :commit => '1ebc0b08f61e516f7cc58a46f85972087ef6d91c'}
+  s.source       = { :git => "https://github.com/ManjuPIC/PhilipsCharts.git", :commit => '9fa8fc6e3a4f51f7b569f787bcde3648268679a0'}
   s.source_files  = ["MyGraph/*.{h,swift}"]
   # s.resources = ["Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.ttf", "Source/PhilipsUIKitDLS/Images.xcassets", "Source/PhilipsUIKitDLS/PhilipsUIKitDLS/Resources/*.png"]
   s.requires_arc = true
